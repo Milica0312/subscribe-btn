@@ -1,0 +1,60 @@
+@media only screen and (max-width: 1080px){
+/*BANNER SUBSCRIBE*/
+.btnnl button {
+    margin-top: 48px;
+}
+.nlwidth {
+	position: relative;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 0;
+}
+.lablenl, .emailnl, .btnnl, .cekbox {
+    float: none;
+    width: 100%;
+}
+.lablenl p {
+	line-height: 60px;
+  padding-top: 0;
+}
+
+.strelica_acc_subs{
+  display: block;
+	position: absolute;
+	top: 20px;
+	right: 10px;
+	width: 30px;
+
+ -moz-transition: transform 0.5s;
+	-webkit-transition: transform 0.5s;
+ transition: transform 0.5s;
+}
+.bottomMenu{
+	-moz-transition: all 0.5s ease;
+	-webkit-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+
+.proba{
+	height: 200px;
+}
+
+.obavestenje p {
+    line-height: 60px;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 91%;
+}
+/*END BANNER SUBSCRIBE*/
+
+}
+@media only screen and (max-width: 400px){
+	.subscribefullheight {
+		width: 100% !important;
+	}
+	.subscribefullheight h2 {
+		font-size: 45px !important;
+	}
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+<meta name="author" content="">
+
+<!-- Open Graph -->
+<meta property="og:title" content="" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="" />
+<meta property="og:image" content="" />
+<link rel="canonical" href="" />
+<!-- Custom Fonts -->
+
+<!--bootstrap-->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<!--css-->
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/main-resp.css">
+<!--js-->
+<script src="js/main.js"></script>
+<!--favicon-->
+<link rel="shortcut icon" href="" />
+<!--analitika-->
+<style>
+
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+	<div style="height:2000px">
+
+	</div>
+
+	<div class="bottomMenu">
+		<img class="zatvori_acc_subs" src="imgs/zatvori.png" alt="close">
+		<div class="nlwidth">
+			<a class="otvaranje_subs"><img class="strelica_acc_subs" src="imgs/strelica.png" alt="expand"></a>
+
+			<div class="lablenl">
+				<p>Prvi saznajte sve nove informacije!</p>
+			</div>
+			<div class="emailnl">
+				<input type="email" name="email" id="email" placeholder="Unesite email">
+			</div>
+			
+			<div class="btnnl">
+				<button type="button">Prijavi se!</button>
+			</div>
+		</div>
+		<div class="obavestenje">
+			<p>Uspešno ste se prijavili na Newsletter.</p>
+		</div>
+	</div>
+<!--back to top-->
+<script>
+
+
+$(".btnnl").click(function(){
+    $(".nlwidth").animate({marginTop: "-45px"});
+});
+
+$( ".strelica_acc_subs" ).click( function() {
+		$(".strelica_acc_subs").toggleClass('okreni');
+		$(".bottomMenu").toggleClass('proba');
+});
+
+$( ".zatvori_acc_subs" ).click( function() {
+		$(".bottomMenu").hide();
+});
+
+</script>
+</body>
+</html>

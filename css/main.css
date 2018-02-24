@@ -1,0 +1,135 @@
+/*SUBSCRIBE ELEMENT*/
+.bottomMenu {
+    border-top: 1px solid #ebe9ea;
+    display: none;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 60px;
+    color: white;
+    background-color: #5d5d5d;
+    opacity: 0.9;
+    z-index: 10000;
+    vertical-align: middle;
+    text-align: center;
+	overflow: hidden;
+}
+.lablenl, .emailnl, .btnnl, .cekbox{
+	float:left;
+	width:30%;
+}
+
+.cekbox {
+  padding-top: 5px;
+}
+.lablenl p{
+	vertical-align:middle;
+	padding-top: 4px;
+}
+.nlwidth{
+	width:90%;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top: 12px;
+}
+#email{
+	width:300px;
+	height:30px;
+	border-radius:5px;
+	border: 1px solid #efefef;
+
+}
+.btnnl button{
+	width:150px;
+	height:30px;
+	border-radius:5px;
+	border: 1px solid #efefef;
+	background-color:transparent;
+}
+.btnnl button:hover{
+	color:#5d5d5d;
+	background-color:white;
+	transition:0.8s;
+}
+.nlwidth {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 12px
+}
+
+#email {
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #efefef
+}
+
+.btnnl button {
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #efefef;
+    background-color: transparent
+}
+
+    .btnnl button:hover {
+        color: #5d5d5d;
+        background-color: white;
+        transition: 0.8s
+    }
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  padding-left:10px;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  padding-left:10px;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  padding-left:10px;
+}
+:-moz-placeholder { /* Firefox 18- */
+  padding-left:10px;
+}
+
+.obavestenje{
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.obavestenje p {
+  line-height: 60px;
+  font-size: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.moreinfo img{
+  width: 20px;
+}
+
+.okreni{
+  transform: rotate(-180deg);
+}
+
+.strelica_acc{
+  -moz-transition: transform 0.5s;
+  -webkit-transition: transform 0.5s;
+  transition: transform 0.5s;
+}
+
+.strelica_acc_subs{
+  display: none;
+}
+
+.zatvori_acc_subs{
+  position: absolute;
+  width: 10px;
+  top: 5px;
+  right: 5px;
+}
+
+
+
+
